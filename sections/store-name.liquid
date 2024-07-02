@@ -1,0 +1,20 @@
+{{ 'home.min.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'home.min.js' | asset_url }}" defer="defer"></script>
+
+<section class="container mx-auto">
+  <h1 class="text-4xl text-blue-700">{{ section.settings.store_name }}</h1>
+</section>
+
+{% schema %}
+{
+  "name": "Store Name",
+  "settings": [
+    {
+      "type": "text",
+      "id": "store_name",
+      "label": "Store Name",
+      "default": "Store Name"
+    }
+  ]
+}
+{% endschema %}

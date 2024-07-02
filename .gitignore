@@ -1,0 +1,17 @@
+# Mac
+.DS_Store
+
+# Node.js
+node_modules/
+
+# Webpack
+/dist/
+/build/
+/assets/*.min.js
+/assets/*.min.css
+
+
+# Shopify
+.theme/
+config.yml
+settings_data.json

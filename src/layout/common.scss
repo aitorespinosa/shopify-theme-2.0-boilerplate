@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Generic Theme Styles */
+:root {
+  --black: #1d1d1d;
+  --main-font: Helvetica, Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --black: #ececec;
+  }
+}

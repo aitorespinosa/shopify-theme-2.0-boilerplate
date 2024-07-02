@@ -1,0 +1,15 @@
+{
+  "wrapper": "main.wrapper-aitor",
+  "sections": {
+    "store-name": {
+      "type": "store-name"
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "featured-collection": "all"
+      }
+    }
+  },
+  "order": ["store-name", "featured-collection"]
+}

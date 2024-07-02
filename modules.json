@@ -1,0 +1,5 @@
+{
+  "home": "./src/pages/home",
+  "common": "./src/layout/common.js",
+  "reset": "./src/layout/reset.scss"
+}
